@@ -22,4 +22,30 @@ While being able to predict the market patterns for cryptocurrency would be usef
 
 ### Features:
 
+Pushshift API Comment Data
 
+· 41 Columns   
+· Author - unique author of comment
+· Date - date of submitted comment
+· Body - comments submitted by user
+· Total Comments - 1.6 million
+
+Historical Bitcoin Price
+
+· Date - Date of historical price
+· Closing Price - closing price of bitcoin by date
+ 
+### Objectives:
+
+1. Use Pushshift API data from r/bitcoin subreddit to calculate sentiment scores by day
+2. Use historical bitcoin price by day and merge with r/bitcoin subreddit to predict whether bitcoin price will go up or down for following day
+3. Use Logistic Regression, K Nearest Neighbors, Support Vector Machine, Random Forest and Gradient Boosting for classification
+
+Reports:
+
+1. [Data Collection Notebook](https://github.com/dplem/Cryptocurrency-Price-Prediction/blob/main/Notebooks/1_Data_Collection.ipynb)
+2. [Data Exploration Notebook](https://github.com/dplem/Cryptocurrency-Price-Prediction/blob/main/Notebooks/2_Exploratory_Analysis.ipynb)
+3. [Feature Engineering Notebook](https://github.com/dplem/Cryptocurrency-Price-Prediction/blob/main/Notebooks/3_Feature_Engineering.ipynb)
+4. [Modeling Notebook](https://github.com/dplem/Cryptocurrency-Price-Prediction/blob/main/Notebooks/4_Modeling.ipynb)
+5. [Final Report]
+6. [Final Presentation]
