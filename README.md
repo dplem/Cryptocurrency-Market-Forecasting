@@ -1,26 +1,51 @@
-# Cryptocurrency-Sentiment-Analysis
-Twitter and Reddit API data is used to populate individual cryptocurrency financial and sentiment analysis dashboards to identify and evaluate trends in the market.
+# Cryptocurrency-Price-Prediction
 
+Derek Plemons
+Springboard Data Science Career Track
 
-## Reddit Submission Scraper
+Capstone Project 2
 
-Reddit Submission Scraper is a program that uses the PRAW api to gather reddit submission data from a subreddit's top posts, export that data into a csv file, perform exploratory analysis and download the images associated with the submissions. Creates a new directory with the subreddit name and downloads images to the newly created directory.
+### Problem Statement:
 
+Using the comments of the r/Bitcoin subreddit and the historical bitcoin price, can we predict whether the price of bitcoin will decrease or increase for the following day?
 
-### Installation
+### Background:
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install required libraries.
+The price of Bitcoin and many other cryptocurrencies has been historically, very volitile. If there was a way to forecast the upward or downward trend of the market even to a few percentage points above random, it could be extrememly valuable. If the market is a reflection of peoples buying power, could it not be possible to predict the market using individuals sentiment about a product, in this case, Bitcoin? 
 
-```bash
-pip install praw
-pip install wordcloud
-pip install pandas-profiling
-```
+While being able to predict the market patterns for cryptocurrency would be useful, we can also evaluate which social media platform is most reflective of actual market sentiment. In other words, which social media platform is useful. it will also be interesting to see what are the capabilities of machine learning tools to make such predictions.
 
-## Usage
+### Data Sources:
 
+1. Reddit Pushshift API - Used to collect historical r/bitcoin subreddit comments for everyday from 12/31/2019 to present
+2. Bitcoin Historical Price - Used the Historical-crypto api to create bitcoin price dataset by date
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+### Features:
 
-Please make sure to update tests as appropriate.
+Pushshift API Comment Data
+
+· 41 Columns   
+· Author - unique author of comment
+· Date - date of submitted comment
+· Body - comments submitted by user
+· Total Comments - 1.6 million
+
+Historical Bitcoin Price
+
+· Date - Date of historical price
+· Closing Price - closing price of bitcoin by date
+ 
+### Objectives:
+
+1. Use Pushshift API data from r/bitcoin subreddit to calculate sentiment scores by day
+2. Use historical bitcoin price by day and merge with r/bitcoin subreddit to predict whether bitcoin price will go up or down for following day
+3. Use Logistic Regression, K Nearest Neighbors, Support Vector Machine, Random Forest and Gradient Boosting for classification
+
+Reports:
+
+1. [Data Collection Notebook](https://github.com/dplem/Cryptocurrency-Price-Prediction/blob/main/Notebooks/1_Data_Collection.ipynb)
+2. [Data Exploration Notebook](https://github.com/dplem/Cryptocurrency-Price-Prediction/blob/main/Notebooks/2_Exploratory_Analysis.ipynb)
+3. [Feature Engineering Notebook](https://github.com/dplem/Cryptocurrency-Price-Prediction/blob/main/Notebooks/3_Feature_Engineering.ipynb)
+4. [Modeling Notebook](https://github.com/dplem/Cryptocurrency-Price-Prediction/blob/main/Notebooks/4_Modeling.ipynb)
+5. [Final Report]
+6. [Final Presentation]
