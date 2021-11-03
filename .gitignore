@@ -3,7 +3,6 @@
 *.csv
 *.tsv
 */__pycache__/*
-*.png
 *.jpg
 *.mpg
 *.webm
