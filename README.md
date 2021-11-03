@@ -1,3 +1,5 @@
+![cover_photo](https://github.com/dplem/Cryptocurrency-Price-Prediction/blob/main/Wordcloud/Bitcoin.png)
+
 # Cryptocurrency-Price-Prediction
 
 Derek Plemons
