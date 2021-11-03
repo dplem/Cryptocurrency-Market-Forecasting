@@ -25,15 +25,15 @@ While being able to predict the market patterns for cryptocurrency would be usef
 Pushshift API Comment Data
 
 · 41 Columns   
-· Author - unique author of comment
-· Date - date of submitted comment
-· Body - comments submitted by user
-· Total Comments - 1.6 million
+· Author - unique author of comment   
+· Date - date of submitted comment   
+· Body - comments submitted by user   
+· Total Comments - 1.6 million   
 
 Historical Bitcoin Price
 
-· Date - Date of historical price
-· Closing Price - closing price of bitcoin by date
+· Date - Date of historical price   
+· Closing Price - closing price of bitcoin by date   
  
 ### Objectives:
 
@@ -48,4 +48,4 @@ Reports:
 3. [Feature Engineering Notebook](https://github.com/dplem/Cryptocurrency-Price-Prediction/blob/main/Notebooks/3_Feature_Engineering.ipynb)
 4. [Modeling Notebook](https://github.com/dplem/Cryptocurrency-Price-Prediction/blob/main/Notebooks/4_Modeling.ipynb)
 5. [Final Report]
-6. [Final Presentation]
+6. [Final Presentation](https://github.com/dplem/Cryptocurrency-Price-Prediction/blob/main/Reports/Cryptocurrency%20Price%20Prediction.pdf)
