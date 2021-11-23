@@ -24,7 +24,7 @@ While being able to predict the market patterns for cryptocurrency would be usef
 
 ### Features:
 
-Pushshift API Comment Data
+Pushshift API Comment Data:
 
 · 41 Columns   
 · Author - unique author of comment   
@@ -32,7 +32,7 @@ Pushshift API Comment Data
 · Body - comments submitted by user   
 · Total Comments - 1.6 million   
 
-Historical Bitcoin Price
+Historical Bitcoin Price:
 
 · Date - Date of historical price   
 · Closing Price - closing price of bitcoin by date   
