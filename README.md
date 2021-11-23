@@ -49,5 +49,5 @@ Reports:
 2. [Data Exploration Notebook](https://github.com/dplem/Cryptocurrency-Price-Prediction/blob/main/Notebooks/2_Exploratory_Analysis.ipynb)
 3. [Feature Engineering Notebook](https://github.com/dplem/Cryptocurrency-Price-Prediction/blob/main/Notebooks/3_Feature_Engineering.ipynb)
 4. [Modeling Notebook](https://github.com/dplem/Cryptocurrency-Price-Prediction/blob/main/Notebooks/4_Modeling.ipynb)
-5. [Final Report]
-6. [Final Presentation](https://github.com/dplem/Cryptocurrency-Price-Prediction/blob/main/Reports/Cryptocurrency%20Price%20Prediction.pdf)
+5. [Final Report](https://github.com/dplem/Cryptocurrency-Price-Prediction/blob/main/Reports/Cryptocurrency%20Market%20Prediction%20Report.pdf)
+6. [Final Presentation](https://github.com/dplem/Cryptocurrency-Price-Prediction/blob/main/Reports/Cryptocurrency%20Price%20Prediction%20Presentation.pdf)
